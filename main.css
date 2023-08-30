@@ -1,0 +1,249 @@
+h1 {
+    color: gold; 
+    font-size: 65px; 
+    font-family: cursive;
+    font-weight: 300;
+    text-shadow: 5px 5px 10px #4a4949;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+}
+
+.main-h2 {
+    font-size: 40px;
+    font-family: 'Lucinda sans';
+    font-style: italic;
+    margin-left: 60px;
+}
+
+.main-p1 {
+    font-size: 25px;
+    font-family: 'Lucinda sans';
+    font-style: italic;
+    margin-left: 200px;
+    font-weight: 200;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+    color: white;
+}
+
+.main-p2 {
+    font-size: 25px;
+    font-family: 'Lucinda sans';
+    font-style: italic;
+    font-weight: 200;
+    margin-left: 300px;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+}
+
+.main-p3 {
+        font-size: 30px;
+        font-family: 'Lucinda sans';
+        font-style: italic;
+        font-weight: 200;
+        margin-left: 500px;
+        position: relative;
+        top: 50px;
+        bottom: 50px;
+
+}
+
+
+
+body {
+    margin: 0;
+    font-family: cursive;
+}
+
+.hero {
+    background-color: rgb(49, 193, 171);
+    background-image: url(../img/IMG_8735.png);
+    color: white;
+    background-size: cover;
+    
+    padding-top: 200px;
+    padding-bottom: 200px;  
+}
+
+
+.image {
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: 80px;
+    position: relative;
+    bottom: 79px;
+    background-image: url(../img/IMG_9205.png);
+    background-size: cover;
+    background-position: center;
+    transition: transform (0.5s);
+    border-radius: 230px;
+    box-sizing: border-box; 
+    box-shadow: 5px 5px 10px #4a4949;
+}
+
+.image__overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+    background: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s; 
+}
+
+.image__overlay:hover {
+    opacity: 1; 
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;  
+}
+
+
+.image2 {
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: 521px;
+    position: relative;
+    bottom: 308px;
+    background-image: url(../img/history.png);
+    background-size: cover;
+    background-position: center;
+    transition: transform (0.5s);
+    border-radius: 230px;
+    box-sizing: border-box; 
+    box-shadow: 5px 5px 10px #4a4949;
+}
+
+.image__overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+    background: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s; 
+}
+
+.image__overlay:hover {
+    opacity: 1; 
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;  
+}
+
+.image3 {
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: 960px;
+    margin-right: 60px;
+    position: relative;
+    bottom: 538px;
+    background-image: url(../img/landscape.png);
+    background-size: cover;
+    background-position: center;
+    transition: transform (0.5s);
+    border-radius: 230px;
+    box-sizing: border-box; 
+    box-shadow: 5px 5px 10px #4a4949;
+}
+
+.image__overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+    background: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s; 
+}
+
+.image__overlay:hover {
+    opacity: 1; 
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;  
+}
+
+
+
