@@ -57,7 +57,7 @@ body {
 
 .hero {
     background-color: rgb(49, 193, 171);
-    background-image: url(./img/ocean.png);
+    background-image: url(/images/ocean.png);
     color: white;
     background-size: cover;
     
@@ -73,7 +73,7 @@ body {
     margin-left: 80px;
     position: relative;
     bottom: 79px;
-    background-image: url(./img/mosque.png);
+    background-image: url(images/mosque.png);
     background-size: cover;
     background-position: center;
     transition: transform (0.5s);
@@ -132,7 +132,7 @@ body {
     margin-left: 521px;
     position: relative;
     bottom: 308px;
-    background-image: url(./img/history.png);
+    background-image: url(images/history.png);
     background-size: cover;
     background-position: center;
     transition: transform (0.5s);
@@ -191,7 +191,7 @@ body {
     margin-right: 60px;
     position: relative;
     bottom: 538px;
-    background-image: url(./img/landscape.png);
+    background-image: url(images/landscape.png);
     background-size: cover;
     background-position: center;
     transition: transform (0.5s);
