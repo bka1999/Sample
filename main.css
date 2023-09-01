@@ -48,10 +48,7 @@ h1 {
         position: relative;
         top: 50px;
         bottom: 50px;
-
 }
-
-
 
 body {
     margin: 0;
@@ -60,7 +57,7 @@ body {
 
 .hero {
     background-color: rgb(49, 193, 171);
-    background-image: url(./img/IMG_8735.png);
+    background-image: url(./img/ocean.png);
     color: white;
     background-size: cover;
     
@@ -76,7 +73,7 @@ body {
     margin-left: 80px;
     position: relative;
     bottom: 79px;
-    background-image: url(./img/IMG_9205.png);
+    background-image: url(./img/mosque.png);
     background-size: cover;
     background-position: center;
     transition: transform (0.5s);
