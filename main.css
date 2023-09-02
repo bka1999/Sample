@@ -57,7 +57,7 @@ body {
 
 .hero {
     background-color: rgb(49, 193, 171);
-    background-image: url(/images/ocean.png);
+    background-image: url(.Sample/images/ocean.png);
     color: white;
     background-size: cover;
     
